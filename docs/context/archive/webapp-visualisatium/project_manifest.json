@@ -1,0 +1,21 @@
+{
+  "project_identity": {
+    "name": "Visualisatium",
+    "id": "visualisatium_v1", 
+    "description": "SaaS eCommerce for image and video generation",
+    "topology": "Macro-Project" 
+  },
+  "drive_locations": {
+    "root_path": "My Drive/Projects/WebApp/Active/Visualisatium",
+    "prompts_folder": "prompts/system_instructions",
+    "docs_folder": "docs"
+  },
+  "file_map": {
+    "context": "docs/project_context.md",
+	"history": "docs/project_history.md",
+    "sprint": "docs/active_sprint.md",
+    "roster": "config/gem_roster.json",
+    "tools": "config/tools_inventory.json"
+  },
+  "last_updated": "2026-01-14"
+}

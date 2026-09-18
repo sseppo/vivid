@@ -1,0 +1,62 @@
+{
+  "project_metadata": {
+    "name": "Visualisatium",
+    "version": "3.3",
+    "last_updated": "2026-01-18",
+    "phase": "Planning Phase 3 (Inventory & Schema)",
+    "environment": "Antigravity / VS Code"
+  },
+  "business_logic_axioms": {
+    "payout_model": "realized_net_revenue",
+    "payout_description": "CCA Share (75%) calculated on FIFO value of credits used, NOT List Price",
+    "vat_logic": {
+      "credits": "0% (Tax paid at purchase)",
+      "transaction": "25.5% (Finnish ALV)"
+    },
+    "deposit_rule": "1-Hour Non-Refundable Deposit for Manual Offers",
+    "abandonment_rule": "30-Day Sunset on Pending Offers (Deposit -> CCA)",
+    "acceptance_protocol": "passive_implicit",
+    "implicit_triggers": ["download_high_res", "social_share"],
+    "legal_ux": "Static disclaimer text below buttons. NO blocking modals."
+  },
+  "tech_stack_master": {
+    "core_framework": "TanStack Start (SSR) + TanStack Router",
+    "state_management": {
+      "server": "TanStack Query v5",
+      "client": "Zustand (Persona Store)"
+    },
+    "mobile_native": {
+      "wrapper": "Capacitor 7",
+      "optimization": "Rust JNI Bridge (Android)",
+      "rendering": "ThorVG + Motion for React",
+      "persistence": "Capacitor SQLite",
+      "ci_cd": "Ionic Appflow (Live Updates)"
+    },
+    "backend_infra": {
+      "database": "Supabase (PostgreSQL 17) + JSONB",
+      "storage": "Cloudflare R2 (Zero Egress)",
+      "transient_storage": "Netlify Blobs",
+      "deployment": "Netlify (Edge Functions / Nitro Preset)",
+      "archival": "Apache Iceberg (REST Catalog)"
+    },
+    "auth_commercial": {
+      "auth": "Clerk (Shadowing Enabled)",
+      "payments": "Stripe Connect + Stripe Tax",
+      "email": "Resend"
+    },
+    "ai_layer": "OpenAI + DeepL + TanStack AI SDK"
+  },
+  "data_strategy_config": {
+    "strategy": "jsonb_dynamic_forms",
+    "input_ux_pattern": "split_choice_grid_or_custom",
+    "genealogy_tracking": "self_referencing_asset_table",
+    "catalog_structure": "recursive_reference_lists",
+    "consistency_engine": "saved_character_vault",
+    "structure_hierarchy": "Project -> Order -> Asset"
+  },
+  "dashboard_modules": {
+    "admin": ["Forensic Hover", "Success Tax Engine", "Shadowing"],
+    "user": ["Genealogy Tree", "Comparison Slider", "Project Folder"],
+    "cca": ["Soft Lock Presence", "Gamified Urgency"]
+  }
+}

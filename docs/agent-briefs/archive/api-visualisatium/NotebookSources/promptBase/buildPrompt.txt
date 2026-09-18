@@ -1,0 +1,21 @@
+I have asked notebooklm to make improvements for my admin dashboard, but it is time consuming since it keeps dropping or replacing features without indication. Build a prompt for me to use at notebooklm. It should 
+
+1. iterate by itself multiple times, so that I do not need to start manually again to find more improvements. 
+
+2. when outputting, keep to keep exactly same structure as original file, and make improvement suggestions below their intended titles (like Order Management, Product Management, Accounting Management etc) and subtitles (like Features or Technical Considerations). It should not just suggest but make the improvements too (=mark them to "new original" file, before doing next iteration using that as new basis). 
+
+3. For me to be able to easily spot what has been changed and how, it should mark the changes indented under that particular point: a) if it replaces old point (i.e. feature or technical consideration): write "Replaces: " followed with title of point it replaced. b) if it removed old point: write: "Removed: " followed with title of point it replaced. c) if it is totally new point, no need to mark anything. d) if it has moved or done anything else with the point: write: (the action it took) followed with title of point it replaced
+
+4. If it does not have any improvement suggestions, put at the end of that particular title (Features or Tech considerations) "no more suggestions".
+
+5. If the improvement would suggest some new tool for Tech Stack, it should write list of those to bottom, including URL link to that new tool or package.
+
+6. Keep the writing exactly as it was, unless there is a better way to write that point (it is hard to keep track since every time it writes the same thing with different words). In here the same logic as in point 3: if it changes, it should write why (indented under the point that changed)
+
+7. it should keep all indentations. Sometimes I make the indentations since certain point clearly belongs to parent point (for example, Order Card might be a point, and it's sub-point is a "has link to User / buyer profile". Many times it has just put it to same level as all others, and I need to re-indent it. So it should keep indention as they are, and make wise indention choices by itself too.
+
+8. it should keep the areas (like Product Management and Category Management) separated, unless it think it would be good to combine them (i.e. under Product & Category Management). If that would be suggested, it should mark it also clearly, that they were merged, and keep all the point from both - or if they are also merged, then mark them also for easy to spot.
+
+9. Due to reason that it has been so messy, some points might mean same or similar feature / tech point. If they are merged, there should be similar indication of what has been replaced by new point.
+
+10. There are few comparing tech stack choices yet to make (i.e between Form systems: React Hook Form, TanStack Form, Conform, Formik or ORM systems: No ORM (=native Supabase), Drizzle ORM, Prisma, Kysely). While doing iterations on improvements, it should add one point to each of them it is considering best for that improvement or point. It helps then to decide witch to se. It has detailed details on all of them in the sources. 

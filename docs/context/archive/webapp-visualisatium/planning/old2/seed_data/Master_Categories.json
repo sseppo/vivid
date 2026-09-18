@@ -1,0 +1,44 @@
+[
+  {
+    "id": "memories",
+    "label": { "en": "Memories", "fi": "Muistot" },
+    "subcategories": [
+      { "id": "enhance", "label": "Enhancement (Photo)", "sku_prefix": "IMG-MEM" },
+      { "id": "holiday", "label": "Holiday Trip", "sku_prefix": "IMG-HOL" },
+      { "id": "video_mem", "label": "Video Memories", "sku_prefix": "VID-MEM" }
+    ]
+  },
+  {
+    "id": "history",
+    "label": { "en": "History", "fi": "Historia" },
+    "subcategories": [
+      { "id": "moment", "label": "Moment in History", "sku_prefix": "IMG-HIST" },
+      { "id": "person_hist", "label": "Person into History", "sku_prefix": "IMG-HIST-PERS" }
+    ]
+  },
+  {
+    "id": "fun",
+    "label": { "en": "Fun & Social", "fi": "Hupi" },
+    "subcategories": [
+      { "id": "situation", "label": "Person in Situation", "sku_prefix": "IMG-FUN-SIT" },
+      { "id": "faceswap", "label": "Face Swap & Caricature", "sku_prefix": "IMG-FUN-FACE" },
+      { "id": "music", "label": "Music & Video", "sku_prefix": "VID-FUN" }
+    ]
+  },
+  {
+    "id": "company",
+    "label": { "en": "Business", "fi": "Yritys" },
+    "subcategories": [
+      { "id": "mascot", "label": "Mascot & Character", "sku_prefix": "IMG-BIZ-CHAR" },
+      { "id": "ads", "label": "Advertisement", "sku_prefix": "IMG-BIZ-AD" }
+    ]
+  },
+  {
+    "id": "specials",
+    "label": { "en": "Specials", "fi": "Erikoiset" },
+    "subcategories": [
+      { "id": "physical", "label": "Physical Output", "sku_prefix": "PHY-OUT" },
+      { "id": "collections", "label": "Collections", "sku_prefix": "COL-SET" }
+    ]
+  }
+]

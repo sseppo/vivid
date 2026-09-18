@@ -1,0 +1,7 @@
+https://capacitorjs.com/
+https://clerk.com/
+https://www.netlify.com/
+https://supabase.com/
+https://tanstack.com/
+
+https://www.cloudflare.com/developer-platform/products/r2/

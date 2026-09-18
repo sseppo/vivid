@@ -1,0 +1,35 @@
+Create a price list for digitization for images and videos. 
+Images at least from following physical sources: photos, films, paper sources (by different paper sizes), CD, DVD. 
+Videos at least from VHS, CD, DVD
+
+Add other other different sources for digitization of images and videos from common sources. 
+
+Search the prices from Finland and other European countries. 
+
+Add the results to a pricing table, with columns: Digital result, Source type, price, price unit, partner
+Place "image" or "video" to Digital result -column. Place source (photo,, film, paper etc) to Source Type -column. price as price. Price unit single typically per image or per video. Partner is same as the source company is derived from, and link a link to their webpage
+
+
+--
+
+
+Create a price list for printing for images and videos. 
+Images at least for following physical destinations: photos, paper (by different paper sizes), poster, painting, 3D model, photo book. 
+Videos at least for following destination: DVD, Blue-ray
+
+Add other other relevant destinations for printing of images and videos to physical products from digital sources. 
+
+Search the prices from Finland and other European countries. 
+
+Add the results to a pricing table, with columns: Product, Source type, price, price unit, partner, link, country
+Place physical product type to Product -column, "image" or "video" to Source type -column. Price as price. Price unit as if it is per physical product or if there is another unit. Partner is same as the source company is derived from, and link a link to their webpage, and their country to country -column
+
+--
+
+Create a price list for digitization for physical sources such as books, folders, archive folders, maps, magazines, newspapers, paper articles, notebooks, scrolls, permanents, or other similar media (add more sources as needed). 
+Do not include photos or such, as image digitization is already covered elsewhere.
+
+Search the prices from Finland and other European countries. 
+
+Add the results to a pricing table, with columns: Digital result, Source type, price, price unit, partner, link, country
+Place mentioned resulted product in digital result (usually PDF to download or on USB stick) to Digital result -column. Place source (book, paper, magazine... etc) to Source Type -column. price as price. Price unit (typically per page or scan) to price unit -column. Partner is same as the source company is derived from, and link a link to their webpage, and country is country where company is based at.

@@ -1,0 +1,40 @@
+[
+  {
+    "gem_name": "Planning Gem",
+    "role": "Product Visionary & CPO",
+    "version": "3.5",
+    "filename": "systemInstructions-Planning-Gem_v3.5.md",
+    "link": "My Drive/Websivut/Projects/WebApp/Active/Yleiset/Planning Gem/system_instructions/systemInstructions-Planning-Gem_v3.5.md",
+    "capabilities": [
+      "PRD Generation", "Business Logic", "Pricing Matrices", "Octagon Protocol", 
+      "Unit Economics", "Strategic Blueprinting", "Brainstorming", "Idealizing", 
+      "Improving existing material", "Economic Modeling", "Octagon Simulation", 
+      "Gherkin Spec Generation", "Mermaid Visualization", "File-Based Economic Modeling"
+    ],
+    "last_updated": "2026-01-17"
+  },
+  {
+    "gem_name": "Creator Gem",
+    "role": "Agent Factory Manager",
+    "version": "3.3",
+    "filename": "2026_Master_Protocol-For-Creator-Gem_v3.3.md",
+    "link": "My Drive/Websivut/Projects/WebApp/Active/Yleiset/Creator Gem/system_instructions/2026_Master_Protocol-For-Creator-Gem_v3.3.md",
+    "capabilities": [
+      "Recursive Prompting", "Mobile Bridge Profiling", "Adversarial Auditing", 
+      "Dynamic Context Injection", "Project Agnostic Compilation"
+    ],
+    "last_updated": "2026-01-17"
+  },
+  {
+    "gem_name": "Guidance Gem",
+    "role": "Orchestrator & TPM",
+    "version": "3.4",
+    "filename": "2026_Master_Protocol-For-Guidance-Gem_v3.4.md",
+    "link": "My Drive/Websivut/Projects/WebApp/Active/Yleiset/Guidance Gem/system_instructions/2026_Master_Protocol-For-Guidance-Gem_v3.4.md",
+    "capabilities": [
+      "Context Management", "Dynamic Routing", "Deep Research", 
+      "Project Agnostic Scoping"
+    ],
+    "last_updated": "2026-01-17"
+  }
+]

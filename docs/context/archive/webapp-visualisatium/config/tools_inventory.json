@@ -1,0 +1,16 @@
+{
+  "project": "Visualisatium",
+  "approved_tools": {
+    "ide": ["Antigravity", "VS Code"],
+    "frameworks": ["TanStack Start", "React 19", "Capacitor 7"],
+    "database": ["Supabase", "Apache Iceberg"],
+    "auth": ["Clerk"],
+    "payments": ["Stripe Connect", "Stripe Tax"],
+    "ai_services": ["TanStack AI SDK", "OpenAI", "DeepL", "Higgsfield", "OpenArt"],
+    "research": ["NotebookLM", "Perplexity Pro"],
+    "libraries": ["Motion for React", "ThorVG", "Ionic Identity Vault"]
+  },
+  "constraints": {
+    "forbidden": ["Express.js (General Use)", "Redux", "Framer Motion (Legacy Name)"]
+  }
+}

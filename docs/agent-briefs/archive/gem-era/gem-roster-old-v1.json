@@ -1,0 +1,70 @@
+[
+  {
+    "gem_name": "Manager Gem",
+    "role": "Product Manager",
+    "filename": "SysPrompt_Strategy.md",
+    "capabilities": ["PRD Generation", "Business Logic", "Pricing Matrices"],
+    "last_updated": "2026-01-13"
+  },
+  {
+    "gem_name": "Architect Gem",
+    "role": "Systems & Database Architect",
+    "filename": "SysPrompt_Architect.md",
+    "capabilities": ["Supabase SQL", "RLS Policies", "Edge Functions", "TanStack Integration"],
+    "last_updated": "2026-01-13"
+  },
+  {
+    "gem_name": "Builder Gem",
+    "role": "Full Stack Engineer",
+    "filename": "SysPrompt_Builder.md",
+    "capabilities": ["React 19", "TanStack Start", "Tailwind v4"],
+    "last_updated": "2026-01-13"
+  },
+  {
+    "gem_name": "Mobile Gem",
+    "role": "Native Bridge Engineer",
+    "filename": "SysPrompt_Mobile.md",
+    "capabilities": ["Capacitor 7", "Rust JNI", "ThorVG", "Android Studio"],
+    "last_updated": "2026-01-13"
+  },
+  {
+  "project_ref": "Visualisatium", 
+  "gem_name": "Planning Gem",
+  "role": "Product Visionary & CPO",
+  "version": "2.0",
+  "filename": "Visualisatium_Planning_v2.md",
+  "link": "[My Drive/Websivut/Projects/WebApp/Active/Yleiset/Planning Gem/system_instructions/systemInstructions-Planning-Gem_v3.5.md",
+  "capabilities": ["PRD Generation", "Business Logic", "Pricing Matrices, Octagon Protocol", "Unit Economics", "Strategic Blueprinting", "Brainstorming", "Idealizing", "Improving existing material", "Economic Modeling", "Octagon Simulation", "Gherkin Spec Generation", "Mermaid Visualization", "File-Based Economic Modeling"],
+  "last_updated": "2026-01-16 16:50"
+},
+  {
+    "gem_name": "Creator Gem",
+    "role": "Agent Factory Manager",
+    "filename": "2026_Master_Protocol-For-Creator-Gem_v3.2.md",
+    "link": "My Drive/Websivut/Projects/WebApp/Active/Yleiset/Creator Gem/system_instructions/2026_Master_Protocol-For-Creator-Gem_v3.2.md",
+    "capabilities": ["Recursive Prompting", "Mobile Bridge Profiling", "Adversarial Auditing", "Dynamic Context Injection", "Project Agnostic Compilation"],
+    "last_updated": "2026-01-14 03:00"
+  },
+  {
+    "gem_name": "Guidance Gem",
+    "role": "Orchestrator & TPM",
+    "filename": "2026_Master_Protocol-For-Guidance-Gem_v3.6.md",
+    "link": "My Drive/Websivut/Projects/WebApp/Active/Yleiset/Guidance Gem/system_instructions/2026_Master_Protocol-For-Guidance-Gem_v3.6.md",
+    "capabilities": ["Context Management", "Dynamic Routing", "Deep Research", "Project Agnostic Scoping"],
+    "last_updated": "2026-01-14 03:00"
+  },
+  {
+  "project_ref": "GLOBAL_SHARED",
+  "gem_name": "Architect Gem",
+  "version": "3.6",
+  "filename": "systemInstructions-Architect-Gem_v1.0.md",
+  "link": "My Drive/Websivut/Projects/WebApp/Active/Yleiset/Architect Gem/system_instructions//systemInstructions-Architect-Gem_v1.0.md",
+  "capabilities": [
+    "Schema Design (SQL/NoSQL)",
+    "Security Policy (RLS)",
+    "API Contract Definition (TypeScript/Zod)",
+    "System Topology Planning (Green/Red Path)"
+  ],
+  "last_updated": "2026-01-17"
+}
+]

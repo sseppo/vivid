@@ -1,0 +1,20 @@
+I changed the pricing model and reorganized products. Please define new pricing schema with these new rules:
+
+Customer pays either by virtual credits, or by transaction: credit card, invoice, bank transfer
+Customer can purchase credit packs. The larger the credit pack, the larger the discount.
+Customer can purchase monthly membership-plan, which includes certain amount of credits.
+There are 3 tiers in memberships.
+
+Prices are calculated in the attached excel.
+
+The credits are not equal to typical AI credits, so they are not comparable. 
+
+Free items in both credit packs and monthly memberships might be announced from time to time.
+There might be periodical discounts for the prices.
+
+If product is to be invoiced, separate invoice is sent to customer for bank transfer. Same invoice is placed to customer dashboard for online payment with i.e. credit card or credits already purchased. If customer pays all with credits, the invoice is deleted (not needed for accounting). If customer pays partly with credits, the invoice is replaced with new one indicating amount left to pay with transaction.
+
+If customer purchases repetitive task, the whole process is automated: at predefined times, payment is made by customer credits (of there is enough of them), and the result is made automatically by predefined rules.
+
+All invoiced products include manual work as man hours. Thus to start the process, first minimum amount is charged. This includes the creation of the actual invoice. In the created invoice the already purchased hour is taking into concern. This means that even invoiced products start with purchase by credits or transaction.
+However, with those products customer has ability to ask for details and negotiate before the purchase of first man hour. In such case, it is up to worker to decide when and how much time is spent on the subject before invoice is sent. The purpose is not leave customer unanswered, but to take into concern possibly of high demand compared to that uncertainty of getting work invoiced if customer rejects the order. Thus by paying the first hour, customer makes sure that the work hour for preparation and calculation for desired their special case is underway.

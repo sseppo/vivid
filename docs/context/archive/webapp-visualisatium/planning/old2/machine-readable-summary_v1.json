@@ -1,0 +1,15 @@
+{
+  "logic_version": "1.0",
+  "payout_model": "realized_net_revenue",
+  "cca_share_percentage": 75,
+  "default_review_period_days": 14,
+  "deposit_requirement_manhours": 1,
+  "vat_rate": 25.5,
+  "stack_components": ["Supabase DB", "Stripe Connect", "Edge Function (Cron)"],
+  "critical_rules": [
+    "NO work without payment",
+    "CCA payout ONLY after review period",
+    "Realized Value calculation for Credits (FIFO)",
+    "Mixed payments trigger invoice splitting"
+  ]
+}

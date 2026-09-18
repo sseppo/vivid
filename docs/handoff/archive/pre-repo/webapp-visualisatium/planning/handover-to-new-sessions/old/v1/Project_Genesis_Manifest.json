@@ -1,0 +1,45 @@
+{
+  "project_name": "Visualisatium",
+  "version": "1.3",
+  "session_date": "2026-01-24",
+  "core_identity": {
+    "role": "Hybrid AI/Human Marketplace",
+    "primary_domain": "Visual Assets (Image/Video)",
+    "secondary_domain": "Immersion Layer (Text/Audio as narrative soul)",
+    "tertiary_domain": "Physical/Digitization (Passthrough/Directory Model)"
+  },
+  "strategic_decisions": {
+    "text_audio_strategy": "Immersion Layer (Interactive Narrative Wizards, not generic tools)",
+    "partner_model": "Directory & API Passthrough (No inventory holding)",
+    "gamification_model": "Progressive Disclosure (All tools available to all; XP unlocks guidance/advanced UI presets)",
+    "pricing_model": "Hybrid (Credits + Euro Transactions)",
+    "smart_collections_model": "Dependency Graph (Input -> Style -> Output 1 -> Output 2)"
+  },
+  "feature_packs": {
+    "trust_and_continuity": {
+      "status": "Spec Ready",
+      "features": ["Chain of Custody (Integrated Partners)", "Asset DNA (JSON Container)", "Draft Safeguard (Watermarking)"]
+    },
+    "smart_collections": {
+      "status": "Concept Defined",
+      "logic": "Template-Driven Orchestration",
+      "components": ["Input Node", "Style Node (Lists-DB)", "Generator Node", "Recipe Node"]
+    },
+    "gamification": {
+      "status": "Concept Defined",
+      "philosophy": "Guidance over Gating",
+      "levels": ["Intern", "Indie Director", "Studio Head", "Mogul"],
+      "mechanic": "High XP triggers 'Pro Tips' and 'Advanced Mode' recommendations"
+    }
+  },
+  "dashboard_requirements": {
+    "admin": ["Global Shipment Tracker (Integrated)", "Smart Template Builder", "Partner Directory Manager"],
+    "cca": ["Surge Pricing UI", "Narrative Context Panel", "Asset DNA Injection"],
+    "user": ["Physical Vault", "Preservation Gauge", "Timeline Collection View"]
+  },
+  "pending_next_steps": [
+    "Continued Planning & Idealization (Features, Business Logic)",
+    "Refinement of 'Smart Collection' Templates",
+    "Brainstorming new 'Immersion' features"
+  ]
+}

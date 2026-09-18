@@ -1,0 +1,28 @@
+Persona: Act as a Neutral Technical Auditor and Systems Architect and Financial Controller.
+Task: Conduct an exhaustive, objective technical and commercial audit of [Provider Name] using [Link] and all discoverable documentation (including pricing tables, API references, infrastructure whitepapers, and developer guides).
+Objective: Generate a comprehensive "Raw Data Report." This document must serve as a foundational reference for future multi-use analysis. Do not prioritize any specific architecture (like S3); instead, document exactly what exists.
+Required Data Sections:
+1. Commercial & Financial Model:
+- Detailed breakdown of storage costs (per GB/TB).
+- Data transfer/egress fees (internal, external, and cross-region).
+- Request-based pricing (operations/API calls).
+- Minimum retention periods or minimum object size charges.
+2. Technical Specifications & Architecture:
+- Core API types supported (REST, SOAP, Proprietary, or Industry Standards).
+- Performance limits (throughput, IOPS, and latency expectations).
+- Object/File limits (max size, naming conventions, metadata support).
+- Data consistency model (Strong vs. Eventual).
+3. Infrastructure & Availability:
+- Global footprint (specific regions/locations).
+- Redundancy and durability mechanisms (Replication, Erasure Coding, Multi-AZ).
+- Service Level Agreements (SLA) for uptime and durability.
+4. Developer Experience (DX):
+- Available SDKs and supported programming languages.
+- Tooling ecosystem (CLIs, GUI consoles, Infrastructure as Code support).
+- Authentication and Authorization models (IAM, Keys, Tokens, etc.).
+- Documentation quality and community/support resources.
+5. Security & Compliance:
+- Encryption capabilities (at rest and in transit).
+- Identity management features.
+- Industry certifications (ISO, SOC2, GDPR, HIPAA, etc.).
+Formatting Requirement: Organize findings into clearly labeled headers. If a specific technical detail is not explicitly found, write "Information not publicly disclosed in current documentation." Avoid marketing summaries; focus on hard specifications.

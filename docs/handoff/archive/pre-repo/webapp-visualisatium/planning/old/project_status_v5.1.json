@@ -1,0 +1,41 @@
+{
+  "project_metadata": {
+    "name": "Visualisatium",
+    "version": "6.0 (Handoff Ready)",
+    "last_updated": "2026-01-18",
+    "phase": "Planning Phase 3 (Inventory & Schema)",
+    "environment": "Antigravity / VS Code"
+  },
+  "critical_missing_context": {
+    "status": "PENDING_INPUT",
+    "instruction": "The text content for 'Quality of Service.docx', 'Statuses.docx', and 'Content Creator Agent.docx' was NOT processed due to context limits.",
+    "action": "User must paste these 3 files immediately to finalize Dispute Logic."
+  },
+  "active_decisions": {
+    "business_logic": {
+      "payout_model": "realized_net_revenue (FIFO Basis)",
+      "deposit_rule": "1-Hour Non-Refundable Deposit for Manual Offers",
+      "abandonment_rule": "30-Day Sunset -> Archived -> Revivable (Phoenix Protocol)",
+      "acceptance_protocol": "passive_implicit (Download/Share = Final)",
+      "subscription_model": "Service of Creation (Tool Access)"
+    },
+    "tech_stack": {
+      "core": "TanStack Start (SSR) + TanStack Router + Query + Zustand",
+      "mobile": "Capacitor 7 + ThorVG + SQLite + Rust JNI",
+      "backend": "Supabase (PG17 + RBAC) + R2 (Storage) + Netlify Blobs (Transient)",
+      "ops": "Ionic Appflow (CI/CD) + Netlify Edge + Stripe Tax"
+    },
+    "ux_patterns": {
+      "hybrid_input": "Split Choice (Visual Grid + Fast-Track Custom Text)",
+      "genealogy": "Comparison Slider (Parent vs Child Asset)",
+      "navigation": "Dual-Entry (Browse by Product OR Category)"
+    }
+  },
+  "file_system_inventory": {
+    "rules": "project_rules.md",
+    "logic": "planning/Business_Logic_Master_Spec.md",
+    "tech": "planning/Tech_Stack_Master.md",
+    "ui": "planning/Dashboard_Architecture_Blueprint.md",
+    "ops": "planning/Operational_Manual.md"
+  }
+}

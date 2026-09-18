@@ -1,0 +1,40 @@
+{
+  "project_metadata": {
+    "name": "Visualisatium",
+    "version": "5.0",
+    "last_updated": "2026-01-18",
+    "phase": "Planning Phase 3 (Inventory & Schema)",
+    "environment": "Antigravity / VS Code"
+  },
+  "documentation_gap_analysis": {
+    "missing_source_text": ["Quality of Service.docx", "Statuses.docx", "Content Creator Agent.docx"],
+    "action_required": "Please provide these texts to complete Dispute/Workflow logic."
+  },
+  "business_logic_axioms": {
+    "payout_model": "realized_net_revenue (FIFO)",
+    "vat_logic": { "credits": "0%", "transaction": "25.5%" },
+    "deposit_rule": "1-Hour Non-Refundable Deposit for Manual Offers",
+    "abandonment_rule": "30-Day Sunset -> Archived -> Revivable (Phoenix Protocol)",
+    "acceptance_protocol": "passive_implicit (Download/Share = Final)",
+    "subscription_rule": "Service of Creation (Tool Access)"
+  },
+  "tech_stack_master": {
+    "core": "TanStack Start + Router + Query + Zustand",
+    "mobile": "Capacitor 7 + ThorVG + SQLite + Rust JNI",
+    "backend": "Supabase (PG17 + RBAC) + R2 + Netlify Blobs",
+    "ops": "Ionic Appflow + Netlify Edge + Stripe Tax",
+    "auth": "Clerk + Ionic Identity Vault",
+    "intl": "react-i18next + DeepL"
+  },
+  "data_strategy_config": {
+    "strategy": "jsonb_dynamic_forms",
+    "input_ux_pattern": "split_choice_with_fast_track",
+    "genealogy_tracking": "self_referencing_asset_table",
+    "consistency_engine": "saved_character_vault",
+    "terminology": { "user_facing": "Collections", "system_internal": "Projects" }
+  },
+  "operational_config": {
+    "support_model": "Context-Aware Chat (Linked to OrderID)",
+    "wishlist_feature": "Integrated into Support Area"
+  }
+}

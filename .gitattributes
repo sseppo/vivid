@@ -1,0 +1,13 @@
+* text=auto
+
+# Keep line endings as-is for Windows batch files
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary
+*.docx binary
+*.xlsx binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.ico  binary

@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# secrets — never commit
+.env
+.env.*
+!.env.example
+*.env.legacy
+
+# build output
+dist/
+build/
+.output/
+.tanstack/
+.netlify/
+.vercel/
+
+# logs
+*.log
+build.log
+pnpm-log.txt
+npm-debug.log*
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/

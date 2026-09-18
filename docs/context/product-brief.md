@@ -19,5 +19,5 @@ inherits the earlier steps' context; *Collections* are unordered sets. Generatio
 cost and content through three lanes — public APIs, a self-hosted "Sanctuary Server" with its own
 classifier, and a hard block.
 
-**Unsettled, and not decided here:** the product name (D-7, X-4); the credit peg and pricing (X-1, X-2,
-ND-11); backend shape, ORM and deployment target (X-6, X-7, X-8).
+**Unsettled, and not decided here:** the product name (D-7, X-4); the credit peg is the latest definition, provisionally (1 credit =
+€0.10, D-13); backend shape, ORM and deployment target (X-6, X-7, X-8).

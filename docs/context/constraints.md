@@ -27,4 +27,4 @@ live in `docs/context/project-rules.md` (the D-6 merge, written in pass 4 part 2
 | Backend shape (Supabase Edge + Fastify "Red Path" vs server functions only) | contradicted | X-7 |
 | ORM (Drizzle in `.agents/Builder.md`; none in the code) | contradicted | X-6 |
 | Deployment target (Netlify vs none configured) | contradicted | X-8 |
-| Credit value and pricing | contradicted | X-1, X-2, ND-11 |
+| Credit value and pricing | latest kept provisionally: 1 credit = €0.10 | D-13 |

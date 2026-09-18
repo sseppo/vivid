@@ -80,7 +80,7 @@ decides otherwise. Brief: `docs/agent-briefs/architect.md`. **Source:** R-33, R-
 Copies of three legacy env files sit in `C:\api\vividvis\valmistelu\legacy-env\` (two with live
 values), behind three ignore barriers; `.env*` except `.env.example` is ignored in the repo. The
 Clerk keys were rotated 2026-09-19; the new ones are in the git-ignored `apps/web/.env`. The
-Anthropic and OpenAI keys are **not** rotated — deferred, risk accepted (ND-13). **Before the first
+Anthropic and OpenAI keys are **not** rotated yet — the owner rotates them before the first push (ND-13, R-41). **Before the first
 push of project material, a session re-runs the credential gate over all of git history.**
 **Source:** R-20, s2 credential gate, s5 addendum.
 
@@ -88,3 +88,9 @@ push of project material, a session re-runs the credential gate over all of git 
 Series `D-n L-n R-n ND-n X-n`, hyphenated, from 1; ADRs `NNNN`; channel ids `<x>2<y>-n`. A row in
 `registers.md` is what minting means. Pre-repository labels (`F`, `C`, `Q`) are kept where committed
 files cite them and mapped in the register, never renamed. **Source:** R-5, R-34, R-35.
+
+### D-13 — Credit peg: the latest definition, provisionally
+1 credit = €0.10 — the business-logic constitution v6 line and `PricingTable_v2` (Image: 10 credits, €1), the two newest
+sources, which agree with each other. Earlier values (€1.00; 1 credit/€5; 1 credit/€1) are history. **Provisional:** the
+owner expects to revisit pricing as the product develops. **Why:** the peg changed several times; the latest is the best
+available statement until then. **Source:** R-39; X-1, X-2.

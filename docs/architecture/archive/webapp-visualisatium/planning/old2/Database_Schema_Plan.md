@@ -1,4 +1,4 @@
-> **Status:** historical — family F10; superseded by `docs/architecture/database-schema-blueprint.md`. Kept for provenance; not current. Source: `Visualisatium/planning/old2/Database_Schema_Plan.md`. 
+> **Status:** historical — family F10; superseded by `docs/architecture/Database_Schema_Blueprint.md`. Kept for provenance; not current. Source: `Visualisatium/planning/old2/Database_Schema_Plan.md`. 
 
 # Database Schema Blueprint
 **Phase:** 3 (Inventory)

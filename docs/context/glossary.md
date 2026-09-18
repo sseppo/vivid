@@ -18,7 +18,7 @@ repository terms from the ledger. The Architect maintains this file from here.
 | Contributor | guest invited by magic link; uploads assets, may chip in credits | same |
 | Partner | IP rights holder (creator) or physical manufacturer | same |
 | CCA | Content Creator Agent — human service tier; also a `user_role` value | same; `supabase/migrations/0000_vivid_initial_schema.sql` |
-| Credit | the platform currency; its euro value is **contradicted** across the corpus | X-1, X-2, ND-11 |
+| Credit | the platform currency; 1 credit = €0.10, provisionally — earlier documents state other values | D-13; X-1, X-2 |
 | Green / Yellow / Red lane | generation routing: public APIs / self-hosted "Sanctuary Server" / hard block | `01-master-vision.md` §2 |
 | Tuotteet | Finnish, "products" — the per-type product sheets in `docs/context/sources/product-sheets/` | filenames |
 

@@ -1,4 +1,4 @@
-> **Status:** historical — family F10; superseded by `docs/architecture/database-schema-blueprint.md`. Kept for provenance; not current. Source: `Visualisatium/planning/handover-to-new-sessions/valijuttu-1/ei viela/05_Database_Schema_Master_v2.md`. 
+> **Status:** historical — family F10; superseded by `docs/architecture/Database_Schema_Blueprint.md`. Kept for provenance; not current. Source: `Visualisatium/planning/handover-to-new-sessions/valijuttu-1/ei viela/05_Database_Schema_Master_v2.md`. 
 
 # DATABASE SCHEMA & DATA STRATEGY (v3.3)
 > **Target:** Supabase (PostgreSQL 17)

@@ -67,3 +67,16 @@ tied to an owner ruling first. (s4; ADR 0006)
 The plan gave the Builder Gem text as 4,493 characters with no method; the extract measured 4,578.
 The extractor was validated by reproducing two on-disk Gem texts byte for byte, which showed the
 plan's figure was the error. Record how every figure was measured. (s5)
+
+### L-14 — A negative written from memory is still an unmeasured negative
+Session 7 wrote two confident negatives into headers before measuring: that `muistiin'.txt` had "no byte in
+0x80–0x9F" (its own byte count, already on screen, showed four 0x80 bytes — `€` in Windows-1252), and that
+`ProductsAndPrices.docx` was "not in the corpus" (the manifest has it 12 times; it is archived as F35). Both
+were caught only because the claim was checked right after writing it. Run the check first and write the
+sentence from its output. (s7; the same failure s6 caught in `environment.md`)
+
+### L-15 — A status header's own pointer needs the same check as a citation
+Pass 3 wrote four status headers pointing at `docs/architecture/database-schema-blueprint.md`; the file kept
+its name `Database_Schema_Blueprint.md` under the citation-count rule. Headers are written from the plan, and the
+plan assumed a rename it did not make. Resolve every path in generated text against the tree before it is
+committed. (s7; Q-s7-1)

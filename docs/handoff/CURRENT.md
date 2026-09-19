@@ -14,19 +14,22 @@ Read these in order and name each by full path in your first message:
 3. Your brief: `docs/agent-briefs/architect.md`; the shared rules: `docs/agent-briefs/cross-project-mechanics.md`.
 4. `docs/ledger/registers.md` (every id, open items) and `docs/ledger/decisions.md` (D-1 … D-13).
 
-## Repo-state stamp — as at 2026-09-19, Librarian s7 close
+## Repo-state stamp — as at 2026-09-19, Librarian s7 (re-grounded after the owner's commit and push)
 
 | repository | branch | commits | tree | remote |
 |---|---|---|---|---|
-| `C:\api\vividvis\vivid` | `main`, **4 ahead** of the local `origin/main` ref | 5 — last `ae2f4cf library commit 2` | **uncommitted: 42 paths** — 31 new files and 11 modified (root `README.md`, three `docs/context/` files, three `docs/ledger/` files, four archive status headers per R-43); 0 deleted. No `*.lock`, no `tmp_obj_*` | `https://github.com/sseppo/vivid.git` |
+| `C:\api\vividvis\vivid` | `main` = local `origin/main` ref (**0 ahead — pushed**) | 6 — last `f152395 library commit 3` (owner, 2026-09-19 02:16 +0300; pass 4 part 2, 42 files) | clean at that commit; **uncommitted since:** this board, `registers.md`, `decisions.md`, the s7 handoff and working file (addendum 2) — 5 paths. No `*.lock`, no `tmp_obj_*` | `https://github.com/sseppo/vivid.git` |
 
 Commits, oldest first: `86d4bd2 first commit` (owner) · `9971069 chore: repo foundation — line-ending and ignore rules`
 (Librarian) · `54ecccd docs: replace placeholder README with repository status` (Librarian) · `0b9f6c3 library commit 1` (owner;
-pass 3, 419 files) · `ae2f4cf library commit 2` (owner; pass 4 part 1). **Nothing has been pushed since `86d4bd2`** (per the local `origin/main` ref; no network fetch from here).
-All git reads on the Cowork mount use `git --no-optional-locks`. This stamp was measured, not copied (the s6 stamp was stale:
-it listed commits only to `0b9f6c3`).
+pass 3, 419 files) · `ae2f4cf library commit 2` (owner; pass 4 part 1) · `f152395 library commit 3` (owner; pass 4 part 2).
+**All six are pushed** (owner, 2026-09-19; the local `origin/main` ref equals `HEAD` — no network fetch from here).
+All git reads on the Cowork mount use `git --no-optional-locks`.
 
 ## State of play
+
+**2026-09-19 — owner: pass 4 part 2 committed (`f152395`), Anthropic and OpenAI keys rotated, all six commits pushed.**
+Librarian s7 then re-ran the credential history gate over the pushed history: 0 hits. The Architect Project is not created yet.
 
 **2026-09-19 — Librarian s7: pass 4 part 2 done; the reorganisation is complete and the repository is handed to the
 Architect** (l2a-6), effective when the owner commits this pass. Written this session: every §New-files README (sources,
@@ -44,12 +47,12 @@ Before that: **dormant since 2026-04-19** (R-9); no version control at all befor
 
 ## Next sessions, in order
 
-1. **Owner: commit pass 4 part 2** (suggested message in the s7 handoff). Q-s7-1 is ruled and applied (R-43).
-2. **Owner: create the Architect Claude Project** from `docs/agent-briefs/architect.md` (paste "The instructions" into the
-   settings box) and select the 12-file GitHub-synced set listed at the end of that brief. The sync set is only useful
-   **after a push**.
-3. **Before the first push:** the owner rotates the Anthropic and OpenAI keys (ND-13, R-41); then a Cowork session re-runs
-   the credential **history** gate over all blobs (mechanics §10.2). Then the owner pushes and presses *sync* in the Project.
+1. ~~Owner: commit pass 4 part 2~~ — done, `f152395`. ~~Rotate Anthropic/OpenAI keys~~ — done (owner, 2026-09-19).
+   ~~Push~~ — done. History gate — run **after** the push (s7, addendum 2): 0 hits.
+2. **Owner: commit this board refresh** (5 files; message in the s7 handoff, addendum 2) and push it.
+3. **Owner: create the Architect Claude Project** from `docs/agent-briefs/architect.md` (paste "The instructions" into the
+   settings box), select the 12-file GitHub-synced set listed at the end of that brief — all 12 now exist on the remote —
+   and press *sync* after the push of step 2.
 4. **Architect s1:** `start up`; first ruling l2a-5 (Claude Code channel form); then l2a-1 (docs vs code, R-37), l2a-2
    (five reconciliation pairs), l2a-3 (X-3, X-6, X-7, X-8), l2a-4 (the owner's open questions).
 5. Owner, whenever: the deletion proposal `C:\api\vividvis\valmistelu\from-librarian\DELETION-PROPOSAL.md` (R-6, D-1).
@@ -63,7 +66,6 @@ D-11 (credentials), D-13 (credit peg €0.10, provisional).
 
 ## Open needs-decision
 
-- **ND-13 (owner):** rotate the Anthropic and OpenAI keys before the first push. Blocks the push.
 - **X-4 (owner):** product name.
 - **Architect:** X-3, X-6, X-7, X-8; the D-5 reconciliation pairs; R-37 docs-vs-code check; the `a2c` channel form.
 
@@ -91,6 +93,8 @@ Material that exists only outside all of these: the Gemini chats, the NotebookLM
 
 Where they are, never their values. `apps/web/.env` in this repo holds the **rotated Clerk keys** (2026-09-19); git-ignored by
 `apps/web/.gitignore:6` (re-checked s7). `C:\api\vividvis\valmistelu\legacy-env\` holds copies of three legacy env files: five
-live values across two of them (old Clerk pair — now rotated; **Anthropic and OpenAI — not rotated, ND-13**); the third is
-placeholders. `C:\api\vivid\apps\web\.env` is a byte-identical copy of one of them (source folder). No secret is in any git
-history (history gate, s3 — covers only history up to then; re-run before the first push).
+values across two of them — **all five now dead**: Clerk rotated 2026-09-19, Anthropic and OpenAI rotated 2026-09-19 (owner;
+ND-13 resolved). The third is placeholders. `C:\api\vivid\apps\web\.env` is a byte-identical copy of one of them (source folder).
+**History gate re-run 2026-09-19 (s7) over every blob reachable from any ref at `f152395`: 484 blobs, 0 hits** — instrument
+validated on the legacy copies (8 hits) and a redacted control (0). It ran after the push rather than before; no secret was
+there to be pushed. `legacy-env\` may now go (deletion proposal §3).

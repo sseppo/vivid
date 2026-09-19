@@ -64,3 +64,6 @@ this folder's `CURRENT.md` is now a pointer, last full text kept as `CURRENT-ret
 
 ## Q-s7-1 ruled — (a), as recommended → R-43
 Applied to the first line of the four F10 archive headers; bodies verified identical to HEAD. Surface now 42 paths; gate 0 hits.
+
+## Addendum 2 — owner rotated keys and pushed
+History gate after push: 484 blobs, 0 hits. Board/registers/decisions updated; 4 paths uncommitted. See handoff addendum 2.

@@ -135,3 +135,21 @@ after line 1 is identical to `HEAD` (CR-stripped comparison; the blob in `HEAD` 
 4 lines. No dead path is left in any header under `docs/architecture/archive/`. Commit surface is now **42 paths (31 new,
 11 modified)**; credential gate re-run at close: 0 hits. Add to the commit message:
 `- fix dead blueprint path in four archive status headers (R-43)`.
+
+## Addendum 2 — 2026-09-19, same session: owner committed, rotated, pushed
+
+Owner reported: Anthropic and OpenAI keys rotated; all commits pushed; the Architect Project not yet created. Re-ground measured:
+`main` at `f152395 library commit 3` (owner, 02:16 +0300, 42 files — the s7 surface), local `origin/main` = `HEAD`, tree clean,
+no `*.lock` / `tmp_obj_*`.
+
+**The history gate was due before the push and ran after it.** Run now over every blob reachable from any ref (`rev-list --all
+--objects`, 6 commits, 484 blobs, Office zips opened): **0 hits.** Instrument validated: the three legacy env copies → 6 / 0 / 2
+hits (counts only), redacted control → 0, and the blob reader proven to return content (a known string in `registers.md`, a
+`PK` header on `Products.xlsx`). So nothing secret was pushed — and with all keys rotated, nothing live exists to push.
+
+Recorded: board (stamp, state of play, next sessions, credentials; ND-13 removed from open items); `registers.md` (ND-13
+resolved, R-41 spent); `decisions.md` D-11 update line. **Uncommitted: those three files, this handoff and the s7 working-file copy** (5 paths; credential gate 0 hits).
+Suggested message: `docs: record key rotation, push and post-push history gate (ND-13)`.
+
+**Nearly wrong:** my first board rewrite passed an invalid `newline=` argument to Python's `open()`, and the file was left at
+0 bytes. It was committed, so I restored it from `HEAD` (hash-identical) and redid the edit from a script with a length assertion.

@@ -83,6 +83,8 @@ Clerk keys were rotated 2026-09-19; the new ones are in the git-ignored `apps/we
 Anthropic and OpenAI keys are **not** rotated yet — the owner rotates them before the first push (ND-13, R-41). **Before the first
 push of project material, a session re-runs the credential gate over all of git history.**
 **Source:** R-20, s2 credential gate, s5 addendum.
+**Update 2026-09-19 (s7):** the Anthropic and OpenAI keys were rotated by the owner before the push; every legacy value is
+now dead. The history gate was re-run over all 484 blobs after the push (not before, as this decision said): 0 hits.
 
 ### D-12 — Identifiers
 Series `D-n L-n R-n ND-n X-n`, hyphenated, from 1; ADRs `NNNN`; channel ids `<x>2<y>-n`. A row in
